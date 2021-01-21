@@ -42,19 +42,9 @@ api:
   payment:
     url: http://localhost:8083
 
-
-
 feign:
   hystrix:
     enabled: true
-
-# To set thread isolation to SEMAPHORE
-#hystrix:
-#  command:
-#    default:
-#      execution:
-#        isolation:
-#          strategy: SEMAPHORE
 
 hystrix:
   command:
